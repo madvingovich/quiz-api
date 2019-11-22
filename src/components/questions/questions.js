@@ -3,7 +3,7 @@ import QuestionItem from "../question-item";
 
 class Questions extends Component {
     state = {
-        activeQuestionIndex: 18
+        activeQuestionIndex: 0
     };
 
     moveToTheNextQuestion = () => {

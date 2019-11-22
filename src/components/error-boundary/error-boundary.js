@@ -7,8 +7,6 @@ export default class ErrorBoundary extends Component {
 
     componentDidCatch(error, errorInfo) {
         this.setState({ hasError: true });
-        console.log('--->', error);
-        console.log('--->', errorInfo);
     }
 
     render() {

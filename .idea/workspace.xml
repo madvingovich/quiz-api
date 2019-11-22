@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e89224a-0b7f-4e2f-b8d2-0c366b1e2592" name="Default Changelist" comment="" />
+    <list default="true" id="9e89224a-0b7f-4e2f-b8d2-0c366b1e2592" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/questions/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/questions/questions.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574427185886</updated>
-      <workItem from="1574427187060" duration="1785000" />
+      <workItem from="1574427187060" duration="2169000" />
     </task>
     <servers />
   </component>

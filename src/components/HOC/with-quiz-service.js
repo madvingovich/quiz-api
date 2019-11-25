@@ -1,9 +1,9 @@
 import React from 'react';
 import QuizService from "../../services/quiz-service";
 
-const withQuizService = () => (Wrapped) => {
-    const quizService = new QuizService();
+const quizService = new QuizService();
 
+const withQuizService = () => (Wrapped) => {
     return (props) => {
         return <Wrapped {...props} quizService={quizService} />;
     };

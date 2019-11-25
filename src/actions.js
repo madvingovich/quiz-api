@@ -1,4 +1,5 @@
 
+// export const fetchQuestions = (quizService) => (dispatch) => {
 export const fetchQuestions = (quizService) => () => (dispatch) => {
     dispatch(questionsRequested());
 

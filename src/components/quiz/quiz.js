@@ -34,6 +34,10 @@ const mapDispatchToProps = (dispatch, { quizService }) => {
         fetchQuestions: actions.fetchQuestions(quizService)
     }, dispatch);
 
+    // return {
+    //     fetchQuestions: () => dispatch(actions.fetchQuestions(quizService))
+    // }
+
 };
 
 export default withQuizService()(connect(mapStateToProps, mapDispatchToProps)(Quiz));
